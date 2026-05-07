@@ -2,6 +2,8 @@
 
 A Python-based flight deal alert system that queries a real-world API and handles inconsistent responses to extract valid itineraries.
 
+---
+
 ## Features
 
 - Search multiple routes
@@ -10,6 +12,8 @@ A Python-based flight deal alert system that queries a real-world API and handle
 - Find the cheapest flight within a date range
 - Price alert system
 
+--- 
+
 ## Tech
 
 - Python
@@ -17,10 +21,14 @@ A Python-based flight deal alert system that queries a real-world API and handle
 - dotenv
 - REST API (RapidAPI - Kiwi)
 
+---
+
 ## Example output
 
 MAD → BCN: 112 €
 🔥 ALERT: cheap flight found
+
+---
 
 ## Setup
 
@@ -32,6 +40,8 @@ RAPIDAPI_KEY=your_key_here
 3. Run:
 
 python main.py
+
+---
 
 ## ⚠️ Challenges
 
