@@ -1,6 +1,6 @@
 # ✈️ Flight Deals Alert Bot
 
-A Python script that searches for cheap round-trip flights using the Kiwi API via RapidAPI.
+A Python-based flight deal alert system that queries a real-world API and handles inconsistent responses to extract valid itineraries.
 
 ## Features
 
