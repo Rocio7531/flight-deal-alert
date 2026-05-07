@@ -32,3 +32,10 @@ RAPIDAPI_KEY=your_key_here
 3. Run:
 
 python main.py
+
+## ⚠️ Challenges
+
+- API returns inconsistent results (wrong routes, unexpected dates)
+- Required manual filtering of itineraries
+- Implemented validation logic to ensure correct origin/destination
+- Selected cheapest valid flight from noisy API response
