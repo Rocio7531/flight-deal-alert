@@ -18,7 +18,7 @@ A Python-based flight deal alert system that queries a real-world API and handle
 
 - Python
 - Requests
-- dotenv
+- Python-dotenv
 - REST API (RapidAPI - Kiwi)
 
 ---
@@ -33,14 +33,23 @@ MAD → BCN: 112 €
 ## Setup
 
 1. Clone repo
+
+```bash
+git clone <repo_url>
+cd flight-deal-alert
+```
+
 2. Create `.env` file:
 
+```env
 RAPIDAPI_KEY=your_key_here
+```
 
 3. Run:
 
+```bash
 python main.py
-
+```
 ---
 
 ## ⚠️ Challenges
